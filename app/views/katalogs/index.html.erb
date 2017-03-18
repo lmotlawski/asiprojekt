@@ -1,7 +1,4 @@
 <%- model_class = Katalog -%>
-<div class="page-header">
-  <h1><%=t '.title', default: model_class.model_name.human.titleize %> stron www</h1>
-</div>
 <table class="table table-striped">
   <thead>
     <tr>
@@ -37,6 +34,6 @@
   </tbody>
 </table>
 
-<%= link_to t('.new', default: 'Nowy rekord'),
+<%= link_to t('.new', default: 'Dodaj rekord'),
             new_katalog_path,
             class: 'btn btn-primary' %>

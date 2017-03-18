@@ -1,24 +1,15 @@
-# README
+## Arkadiusz Półgęsek (zaliczenie)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+| Wersja Ruby   | Wersja Rails  |                Baza danych                 | Framework |           Dodatkowe gemy           |
+| ------------- |:-------------:|:-------------------------------------------|:---------:|:----------------------------------:|
+| 2.3.3         | 5.0.2         | SQLite - lokalnie<br />PostgreSQL - Heroku | Bootstrap |                                    |
 
-Things you may want to cover:
 
-* Ruby version
+:white_check_mark: [link do wdrożonej na zewnętrznym serwerze aplikacji](https://serene-dusk-56530.herokuapp.com/)
 
-* System dependencies
+### Temat: Katalog stron www
 
-* Configuration
+Aplikacja umożliwiająca dodawanie, edytowanie oraz usuwanie stron www(nazwa strona, opis oraz URL). Dostęp do katalogu jest możliwy tylko dla zalogowanych użytkowników.
 
-* Database creation
+### Gemy:<br />
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

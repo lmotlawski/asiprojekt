@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+File.open("db/db.txt", "r") do |f|
+  f.each_line do |line|
+    nazwa, opis, url = line.chomp.split(";")
+    Katalog.create!(:nazwa => nazwa, :opis => opis, :url => url)
+  end
+end

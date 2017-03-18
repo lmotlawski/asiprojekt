@@ -1,0 +1,18 @@
+PCLab;Recenzje sprzętu komputerowego, codzienne aktualności, pliki, forum.;http://pclab.pl
+YouTube;W YouTube możesz cieszyć się filmami i muzyką, które lubisz, przesyłać oryginalne treści i udostępniać je swoim bliskim, znajomym i całemu światu.;http://youtube.com
+Facebook;Facebook to serwis społecznościowy, który łączy użytkowników ze znajomymi z pracy, szkoły i nie tylko.;http://facebook.com
+Wikipedia;Encyklopedia powszechna, pisana i redagowana przez internautów.;http://pl.wikipedia.org
+Twitter;Połącz się ze swoimi znajomymi – i innymi ciekawymi ludźmi. Otrzymuj natychmiastowe aktualizacje na tematy, które Cię interesują.;http://twitter.com
+Instagram;Fotograficzny serwis społecznościowy hostingu zdjęć, połączony z aplikacją o tej samej nazwie.;http://instagram.com
+LinkedIn;Ponad 400 mln członków | Zarządzaj swoją tożsamością zawodową. Buduj i bierz udział w swojej sieci zawodowej.;http://pl.linkedin.com
+Netflix;Internetowa wypożyczalnia filmów, oferująca za stałą opłatą wypożyczanie filmów poprzez media strumieniowe.;http://netflix.com
+Wordpress;Nowoczesna, semantyczna, osobista platforma publikacyjna, koncentrującą się na estetyce, zgodności z internetowymi standardami i użyteczności.;http://pl.wordpress.org
+Imgur;Darmowy hosting grafiki;http://imgur.com
+Allegro;Polski internetowy serwis aukcyjny;http://allegro.pl
+Olx;Serwis dostarcza informacji o aktualnych ofertach kupna, sprzedaży, wymiany towarów i usług.;http://olx.pl
+Wykop;Aktualności i wiadomości z życia codziennego wyszukane przez internautów.;http://wykop.pl
+Otomoto;W ofercie samochody osobowe, dostawcze, ciężarowe i motocykle.;http://otomoto.pl
+Ceneo;Umożliwia znalezienie określonego produktu oraz sprawdzenie jego cen w różnych sklepach jednocześnie.;http://ceneo.pl
+Joemonster;Bogata kolekcja zdjęć, dowcipów i plików multimedialnych.;http://joemonster.org
+Chomikuj;Internetowy dysk - darmowy serwis do udostępniania plików.;http://chomikuj.pl
+Demotywatory;Kolekcja śmiesznych zdjęć okraszona ironicznymi i zabawnymi komentarzami.;http://demotywatory.pl

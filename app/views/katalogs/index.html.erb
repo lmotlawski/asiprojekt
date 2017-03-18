@@ -19,7 +19,7 @@
         <td><%= katalog.id %></td>
           <td><%= katalog.nazwa %></td>
           <td><%= katalog.opis %></td>
-          <td><%= katalog.url %></td>
+          <td><a href="<%= katalog.url %>" target="_blank"><%= katalog.url %></a></td>
         <td><%=l katalog.created_at, format: :long %></td>
         <td>
           <%= link_to katalog_path(katalog), class: 'btn btn-xs', title: "#{ t('.show', default: t('helpers.links.show')) }" do %>

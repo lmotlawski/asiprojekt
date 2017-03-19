@@ -1,11 +1,14 @@
 <h1>Signup!</h1>
 
+<% flash.each do |name, msg| %>
+<%= content_tag :div, msg, class: "alert alert-info" %>
+<% end %>
+
 <%= form_for :user, url: '/users' do |f| %>
 
-  Login: <%= f.text_field :login %>
-  Email: <%= f.text_field :email %>
-  Password: <%= f.password_field :password %>
-  Password Confirmation: <%= f.password_field :password_confirmation %>
-  <%= f.submit "Submit" %>
+  Adres e-mail: <%= f.text_field :email %>
+  Hasło: <%= f.password_field :password %>
+  Powtórz hasło: <%= f.password_field :password_confirmation %>
+  <%= f.submit "Zarejestruj się" %>
 
 <% end %>

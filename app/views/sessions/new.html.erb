@@ -1,5 +1,10 @@
 <div class="row main"> 
 				<div class="main-login main-center">
+
+				<% flash.each do |name, msg| %>
+    			<%= content_tag :div, msg, class: "alert alert-info" %>
+  				<% end %>
+
 					<%= form_tag '/login' do %>
 
 						<div class="form-group">

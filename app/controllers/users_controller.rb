@@ -10,6 +10,11 @@ def create
       flash.now[:danger] = 'Użytkownik o podanym adresie już istnieje!'
       render 'new'
 
+    elsif params[:user][:password] != params[:user][:password_confirmation]
+
+      flash.now[:danger] = 'Hasła są różne!'
+      render 'new'
+
     else
 
     user = User.new(user_params)

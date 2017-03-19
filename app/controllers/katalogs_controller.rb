@@ -7,7 +7,9 @@ class KatalogsController < ApplicationController
   # GET /katalogs
   # GET /katalogs.json
   def index
-    @katalogs = Katalog.all
+        @katalogs = Katalog.all
+        @q = Katalog.ransack(params[:q])
+        @websites = @q.result(distinct: true)
   end
 
   # GET /katalogs/1

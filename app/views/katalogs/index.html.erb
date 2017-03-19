@@ -1,8 +1,16 @@
 <%- model_class = Katalog -%>
 <table class="table table-striped">
+
+  <%= search_form_for @q do |f| %>
+    <div class="field">
+      <%= f.text_field :nazwa_cont, placeholder: 'Nazwa strony' %>
+      <%= f.submit "Szukaj", class: 'btn btn-primary btn-xs' %>
+    </div>
+    <% end %>
+
   <thead>
     <tr>
-      <th><%= model_class.human_attribute_name(:id) %></th>
+      <th>Lp.</th>
       <th><%= model_class.human_attribute_name(:nazwa) %></th>
       <th><%= model_class.human_attribute_name(:opis) %></th>
       <th><%= model_class.human_attribute_name(:url) %></th>
@@ -11,11 +19,11 @@
     </tr>
   </thead>
   <tbody>
-    <% @katalogs.each do |katalog| %>
+    <% @websites.each_with_index do |katalog,i| %>
       <tr>
-        <td><%= katalog.id %></td>
+        <td><%= (i+1) %></td>
           <td><%= katalog.nazwa %></td>
-          <td><%= katalog.opis %></td>
+          <td><%= markdown(katalog.opis) %></td>
           <td><a href="<%= katalog.url %>" target="_blank"><%= katalog.url %></a></td>
         <td><%=l katalog.created_at, format: :long%></td>
         <td>

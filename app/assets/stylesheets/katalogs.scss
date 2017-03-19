@@ -22,6 +22,10 @@ a.btn.btn-primary, a.btn.btn-danger{
   width: 400px;
 }
 
+.table > tbody > tr > td:nth-child(3) > p{
+  margin: 0;
+}
+
 .main{
  	margin-top: 70px;
 }
